@@ -15,7 +15,7 @@ apt update && apt upgrade -y
 apt install git -y
 _other_installs
 pip3 install -U pip
-git clone https://github.com/Myudi422/ttdocker ccgnimex
+git clone https://github.com/Myudi422/tt ccgnimex
 cd ccgnimex
 pip3 install -U -r requirements.txt
 _externals
