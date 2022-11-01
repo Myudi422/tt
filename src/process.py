@@ -10,14 +10,14 @@ from urllib.parse import urlparse
 # from requests_toolbelt.utils import dump
 
 class ZefoyViews:
-    API_ZEFOY = 'https://froyz.com/'
+    API_ZEFOY = 'https://zefoy.com/'
     API_VISION = 'https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAUbA4T8UWO-pw750uQqz0X2deq9lHLuLk'
 
     STATIC_HEADERS = {
-        "origin": "https://froyz.com/",
+        "origin": "https://zefoy.com/",
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36",
         "x-requested-with": "XMLHttpRequest",
-        'Host': 'froyz.com',
+        'Host': 'zefoy.com',
 
     }
 
