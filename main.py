@@ -49,7 +49,7 @@ def main():
 
                 elif "Coba kembali lagi, Server Penuh." in inject_views:
                     print("[ " + str(datetime.datetime.now()) + " ] " + Fore.LIGHTRED_EX + inject_views)
-                    time.sleep(random.randint(300, 600, 900))
+                    time.sleep(random.randint(180))
                     exit()
 
                 else:
